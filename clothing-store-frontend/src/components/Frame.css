@@ -1,0 +1,24 @@
+.pillars {
+    z-index: 1;
+}
+
+.pillarLeft {
+    position: absolute;
+    left: 0;
+    top: 5%;
+}
+
+.pillarRight{
+    position: absolute;
+    right: 0;
+    top: 5%;
+}
+
+img {
+    height: 92%;
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: repeat(1, 3fr);
+}
