@@ -1,0 +1,9 @@
+.navbar {
+    position: absolute;
+    top: 0;
+    background-image: url('../assets/_/unsplash_Mv-2WDY2mdk.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 8%;
+    width:100%;
+}
