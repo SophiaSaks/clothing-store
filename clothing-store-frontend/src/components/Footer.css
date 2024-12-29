@@ -7,22 +7,47 @@
     height: 10%;
     width:100%;
     rotate:180deg;
-    z-index: -1;
+ 
+}
+
+.madeBy, .aboutUs {
+    rotate:180deg;
+    background-color: #E0DACF;
+    color: #716654;
 }
 
 .madeBy {
-    rotate:180deg;
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    width: 30%;
-    background-color: #E0DACF;
+    width: 18%;
     padding: 0.5rem 0.6rem 0.3rem 0.6rem;
-    color: #716654;
-    
+}
+
+.aboutUs {
+    width: 8%;
+    text-align: center;
+    height: 2.8rem;
+    position:absolute;
+    bottom: 3.4rem;
+    left: 20rem;
+    padding: 0.2rem;
+}
+
+.aboutUs:hover {
+    rotate:180deg;
+    background-color: #716654;
+    color: #E0DACF;
 }
 
 span {
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+span:first-child {
+    padding: 0.2rem;
     font-weight: bold;
 }
