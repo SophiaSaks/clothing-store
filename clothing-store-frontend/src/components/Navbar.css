@@ -36,14 +36,26 @@ ul {
     width: 8%;
     text-align: center;
     height: 2.8rem;
+    padding: 0.2rem;
 
 }
 
 ul > * { 
+
+    position:absolute;
+    top: 4;
     width: 5rem;
     border: 2px solid red;
     background-color: #E0DACF;
     height: 2.8rem;
     padding: 0.5rem;
     font-weight: bold;
+    margin: 120px;
 }
+
+li:hover {
+    rotate:20deg;
+    background-color: #716654;
+    color: #E0DACF;
+    display: flex;
+} 
