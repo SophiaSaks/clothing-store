@@ -13,7 +13,6 @@
 }
 
 .logo {
-    border: 2px solid #4AED47;
     padding: 0.2rem;
     order:3;
     display: flex;
@@ -23,14 +22,7 @@
     grid-column-end: 4;
 }
 
-.logoImg {
-    border: 3px solid white;
-}
-
-
 ul {
-
-    border: 2px solid #4AED47;
     grid-column-start: 2;
     grid-column-end: 3;
     list-style: none;
@@ -38,17 +30,21 @@ ul {
     padding: 0.2rem;
     display: flex; 
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 ul > * { 
-    width: fit-content;
-    border: 2px solid red;
+    width: 8rem;
     background-color: #E0DACF;
     color: #716654;
     height: 5rem;
     padding: 0.5rem;
     font-weight: bold;
     margin: 1rem;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 li:hover {
@@ -56,21 +52,27 @@ li:hover {
     background-color: #716654;
     color: #E0DACF;
     display: flex;
+    font-size: 1.5rem;
 } 
 
 .searchBar {
     width: 18rem;
     height: 4rem;
-    background-color: #E0DACF;
-    border: 2px solid red;
+    background-color: #716654;
+    border-radius: 0 0 1rem 1rem;
     order: 4;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .cart {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
     background-color: #E0DACF;
-    border: 2px solid red;
     width: fit-content;
-    height: fit-content;
+    height: 65%;
     padding: 1.5rem;
     color: #716654;
     order: 5;
@@ -79,4 +81,45 @@ li:hover {
 .cart:hover{
     background-color: #000;
     color: #f9f9f9;
+}
+
+input {
+    width: 14rem;
+    letter-spacing: 0.125rem;
+    font-size: 1.125rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input::placeholder {
+    font-size: 0.75rem;
+    letter-spacing: 0.06rem;
+    color: #f9f9f9;
+}
+
+.searchButton, input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #E0DACF;
+    font-size: 1rem;
+    padding: 0.625rem;
+    cursor: pointer;
+}
+
+.cartNumber {
+    background-color:#000;
+    color: #f9f9f9;
+    padding: 0.5rem;
+    width: fit-content;
+    border-radius: 2rem;;
+    position: absolute;
+    top: 4px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    margin-left: 70px;
+}
+
+.genderLogo {
+    height: 2rem;
+    width: 2rem;
 }
