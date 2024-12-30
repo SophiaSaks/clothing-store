@@ -5,7 +5,6 @@ import '../zindexes.css'
 function Navbar () {
 return(
     <div className='navbar'>
-        <div className="categories">
             <ul>
                 <li>
                     Women
@@ -17,9 +16,16 @@ return(
                     Unisex
                 </li>
             </ul>
-        </div>
         <div className="logo">
             <img className="logoImg" src={Logo} alt="logo"></img>
+        </div>
+        <form className="searchBar">
+            <label>Search</label>
+            <input type="text" placeholder="search here..."></input>
+            <button>Search</button>
+        </form>
+        <div className="cart">
+            <span>Cart</span>
         </div>
 
     </div>
