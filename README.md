@@ -14,4 +14,7 @@ Example from my prototype I used to sketch out my ideas:
   <li>
     Still making sure it's as user friendly and accessible as possible, even though the project itself is a bit more experimental and more "artsy" by design. 
   </li>
+  <li>
+    Rendering out pages without any of the graphical elements moving around (i.e the frame I made with the pillars)
+  </li>
 </ul>
