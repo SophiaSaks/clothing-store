@@ -24,9 +24,11 @@ function Navbar() {
                     Unisex
                 </li>
             </ul>
+            <a href="/">
             <div className="logo">
                 <img className="logoImg" src={Logo} alt="logo"></img>
             </div>
+            </a>
             <form className="searchBar">
                 <input type="text" placeholder="Search here..."></input>
                 <button className="searchButton">
@@ -36,7 +38,7 @@ function Navbar() {
             <div className="cart">
                 <img src={shoppingBasket}></img>
                 <span>Cart</span>
-                <span className="cartNumber">12</span>
+                <span className="cartNumber">120</span>
             </div>
 
         </div>

@@ -28,11 +28,11 @@
 .aboutUs {
     width: 8%;
     text-align: center;
-    height: 2.8rem;
     position:absolute;
     bottom: 3.4rem;
     left: 20rem;
-    padding: 0.2rem;
+    padding: 0.8rem;
+    font-weight: bold;
 }
 
 .aboutUs:hover {
@@ -44,7 +44,13 @@
 span {
     font-size: 1rem;
     text-align: center;
+}
 
+a {
+    display: block; 
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
 
 span:first-child {

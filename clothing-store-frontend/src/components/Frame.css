@@ -1,13 +1,13 @@
 .pillarLeft {
     position: absolute;
     left: 0;
-    top: 5%;
+    top: 6.5%;
 }
 
 .pillarRight{
     position: absolute;
     right: 0;
-    top: 5%;
+    top: 6.5%;
 }
 
 img {

@@ -3,6 +3,10 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import Pillar from '../assets/_/Pillar.png'
 import '../zindexes.css'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import About from './About'
+import Carousel  from './Carousel'
+
 
 function Frame() {
   return (
@@ -12,7 +16,14 @@ function Frame() {
       <img src={Pillar} alt="Pillar right" className="pillarRight"></img>
       <div className="content">
         <div className="primaryContent">
-        <h1>Primary</h1>
+          <Switch>
+            <Route path="/about">
+            <About></About>
+            </Route>
+            <Route path="/">
+            <Carousel></Carousel>
+            </Route>
+          </Switch>
         </div>
         <div className="secondaryContent">
         <h1>Secondary</h1>
