@@ -18,3 +18,7 @@ Example from my prototype I used to sketch out my ideas:
     Rendering out pages without any of the graphical elements moving around (i.e the frame I made with the pillars)
   </li>
 </ul>
+
+![Skärmavbild 2025-01-01 kl  04 18 35](https://github.com/user-attachments/assets/34f44c54-f209-404e-9f2e-e27d64be4dbd)
+
+My idea has been to make the frame static, and make a space in the middle where I render the different content for the pages. So my plan has been to make a primary and seconary space where I render the different content depending on which "page" you're on. To make the design a bit more simple in this case (since it's already a lot of pictures and styling involved), I wanted to make every page the same kind of grid, with one bigger space for major content and the smaller, secondary space for things like filtering and such. 
