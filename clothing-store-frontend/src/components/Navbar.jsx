@@ -11,19 +11,19 @@ function Navbar() {
     return (
         <div className='navbar'>
             <ul>
-                <li>
+                <li className="navbarLi">
                 <a href="/women">
                     <img className="genderLogo" src={women}></img>
                     Women
                     </a>
                 </li>
-                <li>
+                <li className="navbarLi">
                     <a href="/men">
                         <img className="genderLogo" src={men}></img>
                         Men
                     </a>
                 </li>
-                <li>
+                <li className="navbarLi">
                     <a href="/unisex">
                         <img className="genderLogo" src={unisex}></img>
                         Unisex

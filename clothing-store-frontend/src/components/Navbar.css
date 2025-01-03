@@ -42,7 +42,7 @@ a {
     color: #716654;
 }
 
-li:hover {
+.navbarLi:hover {
     rotate:20deg;
     background-color: #716654;
     color: #E0DACF;

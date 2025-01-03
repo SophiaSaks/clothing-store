@@ -1,14 +1,14 @@
 .about {
     font-family: "Lexend", serif;
-    width: 60rem;
-    padding: 2rem;
+    width: 40rem;
+    padding: 1.5rem;
     background-color: hsl(51, 100%, 84%);
     height: fit-content;
     margin: 2rem;
 }
 
 .aboutPicture{
-    height: 60%;
+    height: 25rem;
 }
 
 .aboutParagraph {

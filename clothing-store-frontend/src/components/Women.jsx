@@ -8,9 +8,7 @@ const products = [
     { src: statueWoman, title: "Dress", price: "200 SEK", caption: "Female clothing", key: "1" , className:"product2"},
     { src: statueWoman, title: "T-shirt", price: "400 SEK", caption: "Female clothing", key: "2", className:"product3" },
     { src: statueWoman, title: "Scarf", price: "100 SEK", caption: "Female clothing", key: "3", className:"product4"}
-
 ]
-
 
 function Women() {
     return (
