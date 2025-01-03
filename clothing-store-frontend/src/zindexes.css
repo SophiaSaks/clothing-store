@@ -6,6 +6,9 @@
 .content {
     z-index: -2;
 }
+.pillarBackground1, .pillarBackground2, .pillarBackground3 {
+    z-index: -3;
+}
 
 .footer {
     z-index: 1;
@@ -22,3 +25,4 @@
 .categories{
     z-index: 2;
 }
+

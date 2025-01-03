@@ -10,6 +10,25 @@
     top: 6.5%;
 }
 
+.pillarBackground1{
+    position: absolute;
+    right: 15%;
+    top: 6%;
+}
+
+.pillarBackground2{
+    position: absolute;
+    right: 45%;
+    top: 6%;
+}
+
+.pillarBackground3{
+    position: absolute;
+    right: 75%;
+    top: 6%;
+}
+
+
 img {
     height: 88%;
 }
@@ -27,7 +46,6 @@ img {
 }
 
 .primaryContent {
-    border: 2px solid red;
     width: 85%;
     height: 60vh;
     display: grid;
@@ -36,7 +54,6 @@ img {
 }
 
 .secondaryContent {
-    border: 2px solid blue;
     width: 70%;
     height: 10vh;
     margin: 0.5rem;

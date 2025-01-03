@@ -1,6 +1,30 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    font-family: "Lexend", serif;
+    width: 60rem;
+    padding: 2rem;
+    background-color: hsl(51, 100%, 84%);
+    height: fit-content;
+    margin: 2rem;
+}
+
+.aboutPicture{
+    height: 60%;
+}
+
+.aboutParagraph {
+    width: 20rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+    color: #585926;
+}
+
+.aboutMain {
+    display: grid;
+    grid-template-columns: repeat(2, 35% 1fr);
+}
+
+.aboutTitle {
+    color: #69540f;
+    padding-bottom: 2rem;
 }

@@ -16,18 +16,22 @@ function Navbar() {
                     Women
                 </li>
                 <li>
-                    <img className="genderLogo" src={men}></img>
-                    Men
+                    <a href="/men">
+                        <img className="genderLogo" src={men}></img>
+                        Men
+                    </a>
                 </li>
                 <li>
-                    <img className="genderLogo" src={unisex}></img>
-                    Unisex
+                    <a href="/unisex">
+                        <img className="genderLogo" src={unisex}></img>
+                        Unisex
+                    </a>
                 </li>
             </ul>
             <a href="/">
-            <div className="logo">
-                <img className="logoImg" src={Logo} alt="logo"></img>
-            </div>
+                <div className="logo">
+                    <img className="logoImg" src={Logo} alt="logo"></img>
+                </div>
             </a>
             <form className="searchBar">
                 <input type="text" placeholder="Search here..."></input>
