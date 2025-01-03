@@ -8,6 +8,7 @@ import About from './About'
 import StartPrimary from './StartPrimary'
 import AboutSecondary from './AboutSecondary'
 import EmptyPage from './EmptyPage'
+import Women from './Women'
 
 
 function Frame() {
@@ -29,6 +30,9 @@ function Frame() {
             <Route path="/about" exact component={About}>
             </Route>
             <Route path="/" exact component={StartPrimary}>
+            </Route>
+
+            <Route path="/women" exact component={Women}>
             </Route>
             <Route path="/men" exact component={EmptyPage}>
             </Route>

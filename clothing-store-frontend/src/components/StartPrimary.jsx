@@ -2,10 +2,12 @@ import './StartPrimary.css'
 import '../zindexes.css'
 import Carousel from '../assets/_/_/carouselPicture1.png'
 import React, {useState} from 'react'
+import AboutPicture from '../assets/_/_/aboutPicture.png'
 
 const images = [
     {src: Carousel, title:"Where modern meets classic", content:"Timeless clothes with a youthful touch. " },
-    {src: Carousel, title:"Test", content:"Test " }
+    {src: AboutPicture, title:"Test", content:"Test " },
+    {src: AboutPicture, title:"Another Test", content:"Another Test " }
 ]
 
 function StartPrimary () {

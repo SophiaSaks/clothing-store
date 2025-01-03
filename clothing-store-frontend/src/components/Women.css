@@ -1,0 +1,32 @@
+.WomenUl > * {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: fit-content;
+    width: 10rem;
+    color: white;
+    margin: auto;
+}
+
+.product1 {
+    background-color: rgb(4, 4, 41);
+    padding: 2rem;
+}
+.product2 {
+    background-color: rgb(31, 49, 55);
+    padding: 2rem;
+}
+
+.product3 {
+    background-color: rgb(48, 71, 56);
+    padding: 2rem;
+}
+
+.product4 {
+    background-color: rgb(77, 34, 57);
+    padding: 2rem;
+}
+
+

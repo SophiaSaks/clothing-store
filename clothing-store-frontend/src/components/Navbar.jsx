@@ -12,8 +12,10 @@ function Navbar() {
         <div className='navbar'>
             <ul>
                 <li>
+                <a href="/women">
                     <img className="genderLogo" src={women}></img>
                     Women
+                    </a>
                 </li>
                 <li>
                     <a href="/men">
