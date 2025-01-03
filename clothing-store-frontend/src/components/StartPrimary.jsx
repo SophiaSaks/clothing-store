@@ -31,16 +31,16 @@ function StartPrimary () {
     };
 return(
     <div className="carousel">
-    {/* Slide Wrapper */}
+
     <div
-        className="carousel-slides"
+        className="carouselSlides"
         style={{
             transform: `translateX(-${currentIndex * 100}%)`,
             transition: 'transform 0.5s ease-in-out'
         }}
     >
         {images.map((image, index) => (
-            <div className="carousel-slide" key={index}>
+            <div className="carouselSlide" key={index}>
                 <img src={image.src} alt={image.caption} />
                 <span>{image.title}</span>
                 <p>{image.content}</p>
@@ -48,9 +48,8 @@ return(
         ))}
     </div>
 
-    {/* Navigation Buttons */}
-    <button onClick={goToPrevious} className="carousel-button prev">❮</button>
-    <button onClick={goToNext} className="carousel-button next">❯</button>
+    <button onClick={goToPrevious} className="carouselButton prev">❮</button>
+    <button onClick={goToNext} className="carouselButton next">❯</button>
 </div>
 )
 }
