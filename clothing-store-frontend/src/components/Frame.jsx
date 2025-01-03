@@ -26,17 +26,13 @@ function Frame() {
 
         <div className="primaryContent">
           <Switch>
-            <Route path="/about">
-              <About></About>
+            <Route path="/about" exact component={About}>
             </Route>
-            <Route path="/">
-              <StartPrimary></StartPrimary>
+            <Route path="/" exact component={StartPrimary}>
             </Route>
-            <Route path="/men">
-              <EmptyPage></EmptyPage>
+            <Route path="/men" exact component={EmptyPage}>
             </Route>
-            <Route path="/unisex">
-              <EmptyPage></EmptyPage>
+            <Route path="/unisex" exact component={EmptyPage}>
             </Route>
           </Switch>
         </div>
