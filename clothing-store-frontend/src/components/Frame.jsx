@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Navbar from './Navbar'
 import Pillar from '../assets/_/Pillar.png'
 import '../zindexes.css'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './About'
 import StartPrimary from './StartPrimary'
 import AboutSecondary from './AboutSecondary'
@@ -19,31 +19,33 @@ function Frame() {
       <img src={Pillar} alt="Pillar right" className="pillarRight"></img>
       <div className="pillarBackgroundDiv">
 
-      <img src={Pillar} className="pillarBackground1"></img>
-      <img src={Pillar} className="pillarBackground2"></img>
-      <img src={Pillar} className="pillarBackground3"></img>
+        <img src={Pillar} alt="background pillar" className="pillarBackground1"></img>
+        <img src={Pillar} alt="background pillar" className="pillarBackground2"></img>
+        <img src={Pillar} alt="background pillar" className="pillarBackground3"></img>
       </div>
       <div className="content">
 
         <div className="primaryContent">
-          <Switch>
-            <Route path="/about" exact component={About}>
+          <Routes>
+            <Route path="/about" exact Component={About}>
             </Route>
-            <Route path="/" exact component={StartPrimary}>
+            <Route path="/" exact Component={StartPrimary}>
             </Route>
-
-            <Route path="/women" exact component={Women}>
+            <Route path="/women" exact Component={Women}>
             </Route>
-            <Route path="/men" exact component={EmptyPage}>
+            <Route path="/men" exact Component={EmptyPage}>
             </Route>
-            <Route path="/unisex" exact component={EmptyPage}>
+            <Route path="/unisex" exact Component={EmptyPage}>
             </Route>
-          </Switch>
+          </Routes>
         </div>
         <div className="secondaryContent">
-          <Route path="/about">
-            <AboutSecondary></AboutSecondary>
-          </Route>
+          <Routes>
+
+            <Route path="/about" exact Component={AboutSecondary}>
+            </Route>
+          </Routes>
+
         </div>
       </div>
       <Footer />
