@@ -4,11 +4,11 @@ import Navbar from './Navbar'
 import Pillar from '../assets/_/Pillar.png'
 import '../zindexes.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './About'
-import StartPrimary from './StartPrimary'
-import AboutSecondary from './AboutSecondary'
+import About from '../primaryContent/About'
+import StartPrimary from '../primaryContent/StartPrimary'
+import AboutSecondary from '../secondaryContent/AboutSecondary'
 import EmptyPage from './EmptyPage'
-import Women from './Women'
+import Women from '../primaryContent/Women'
 
 
 function Frame() {
@@ -41,7 +41,6 @@ function Frame() {
         </div>
         <div className="secondaryContent">
           <Routes>
-
             <Route path="/about" exact Component={AboutSecondary}>
             </Route>
           </Routes>

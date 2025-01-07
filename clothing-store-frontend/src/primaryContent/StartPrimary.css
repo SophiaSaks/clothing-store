@@ -1,0 +1,57 @@
+.carouselContainer {
+    position: relative;
+    width: 600px;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+
+.carouselSlide {
+    display: flex;
+    transform: 4s ease-in-out;
+    align-items: row;
+    text-align: center;
+}
+
+.carouselSlide > img {
+    height: 200px;
+    display: flex; 
+    align-items: flex-end;
+}
+
+.carouselSlideText {
+    display: grid; 
+    width: 400px;
+}
+
+.carouselSlide > span {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.carouselSlide > h2 {
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carouselBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+
+}
