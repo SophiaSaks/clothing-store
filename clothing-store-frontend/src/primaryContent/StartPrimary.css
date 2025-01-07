@@ -1,28 +1,36 @@
 .carouselContainer {
-    position: relative;
-    width: 600px;
+    display:flex;
     max-width: 600px;
+    max-height: 800px;
     margin: auto;
     overflow: hidden;
+    justify-content: center;
   }
 
 
 .carouselSlide {
     display: flex;
     transform: 4s ease-in-out;
-    align-items: row;
-    text-align: center;
+    align-items: column;
 }
 
 .carouselSlide > img {
     height: 200px;
-    display: flex; 
     align-items: flex-end;
 }
 
 .carouselSlideText {
     display: grid; 
     width: 400px;
+}
+
+.carouselCurrent {
+    font-size: 1rem;
+    background-color: #716654;
+    padding: 0.2rem;
+    color: #E0DACF;
+
+
 }
 
 .carouselSlide > span {
