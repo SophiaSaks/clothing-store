@@ -28,25 +28,32 @@ function StartPrimary() {
 
     useEffect(() => {
         const intervalId = setInterval(goToNext, autoSlideInterval);
-        return () => clearInterval(intervalId); 
+        return () => clearInterval(intervalId);
     }, [currentIndex, autoSlideInterval]);
 
     return (
-        <div className="carouselContainer">
+        <div className="carouselWrapper">
             <button className="carouselBtn prev" onClick={goToPrevious}>
                 &#10094;
             </button>
-            <div className="carouselSlide">
-                <div className="carouselSlideText">
-                <h2>{images[currentIndex].title}</h2>
-                <span>{images[currentIndex].content}</span>
+            <div className="carouselContainer">
+
+                <div className="carouselSlide">
+                    <div className="carouselSlideText">
+                        <h2>{images[currentIndex].title}</h2>
+                        <span>{images[currentIndex].content}</span>
+
+                    </div>
+                    <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
+
                 </div>
-                <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
+
             </div>
             <button className="carouselBtn next" onClick={goToNext}>
                 &#10095;
             </button>
-            <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString() }</span>
+            <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
+
         </div>
     )
 }

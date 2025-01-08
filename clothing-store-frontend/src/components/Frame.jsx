@@ -44,7 +44,6 @@ function Frame() {
             <Route path="/about" exact Component={AboutSecondary}>
             </Route>
           </Routes>
-
         </div>
       </div>
       <Footer />

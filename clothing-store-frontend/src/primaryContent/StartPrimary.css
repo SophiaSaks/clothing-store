@@ -1,51 +1,69 @@
+.carouselWrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 5% 85% 5%);
+    grid-template-rows: repeat(2, 70% 30%);
+    gap: 1rem;
+    border: 1px solid red;
+}
+
 .carouselContainer {
-    display:flex;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
     max-width: 600px;
     max-height: 800px;
     margin: auto;
     overflow: hidden;
-    justify-content: center;
-  }
+    border: 30px solid transparent;
+    border-image: url('.././assets/_/_/frame.png') 60 round;
+    border-image-outset: 30px;
+
+}
 
 
 .carouselSlide {
     display: flex;
     transform: 4s ease-in-out;
     align-items: column;
+    margin: 0.5rem;
 }
 
-.carouselSlide > img {
+.carouselSlide>img {
     height: 200px;
     align-items: flex-end;
 }
 
 .carouselSlideText {
-    display: grid; 
-    width: 400px;
+    display: grid;
+    width: 300px;
 }
 
 .carouselCurrent {
+    height: fit-content;
+    width: fit-content;
     font-size: 1rem;
     background-color: #716654;
     padding: 0.2rem;
     color: #E0DACF;
-
-
 }
 
-.carouselSlide > span {
+.carouselSlide>span {
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
+    text-align: left;
 }
 
-.carouselSlide > h2 {
+.carouselSlide>h2 {
     font-size: 3rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 
 .carouselBtn {
-    position: absolute;
-    top: 50%;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
@@ -53,13 +71,7 @@
     cursor: pointer;
     padding: 10px;
     z-index: 10;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
-
+    height: fit-content;
+    width: 2.5rem;
+    border-radius: 50px;
 }
