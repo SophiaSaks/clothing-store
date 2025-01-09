@@ -41,7 +41,7 @@ img {
     background-color: #E0DACF;
     opacity: 0.85;
     height: 86vh;
-    margin: 4rem auto auto auto;
+    margin: 2rem auto;
     width: 90%;
 }
 
@@ -51,7 +51,6 @@ img {
     display: grid;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
 }
 
 .secondaryContent {

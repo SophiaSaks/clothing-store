@@ -7,7 +7,7 @@ import AboutPicture from '../assets/_/_/aboutPicture.png'
 const images = [
     { src: Carousel, title: "Where modern meets classic", content: "Timeless clothes with a youthful touch. ", alt: "Test" },
     { src: AboutPicture, title: "Embrace the Beauty of the Twentytwenties", content: "A striking balance between minimalism and baroque sophistication for the modern world.", alt: "Test" },
-    { src: AboutPicture, title: "Classical Beauty, Modern Design", content: "Another Test ", alt: "Test" }
+    { src: AboutPicture, title: "Classical Beauty, Modern Design", content: "Timeless clothes with a youthful touch. ", alt: "Test" }
 ]
 
 function StartPrimary() {

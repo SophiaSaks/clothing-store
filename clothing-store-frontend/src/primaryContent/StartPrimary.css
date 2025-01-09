@@ -1,9 +1,7 @@
 .carouselWrapper {
     display: grid;
     grid-template-columns: repeat(4, 5% 85% 5%);
-    grid-template-rows: repeat(2, 70% 30%);
-    gap: 1rem;
-    border: 1px solid red;
+    gap: 0.5rem;
 }
 
 .carouselContainer {
@@ -17,7 +15,6 @@
     border: 30px solid transparent;
     border-image: url('.././assets/_/_/frame.png') 60 round;
     border-image-outset: 30px;
-
 }
 
 
@@ -26,6 +23,7 @@
     transform: 4s ease-in-out;
     align-items: column;
     margin: 0.5rem;
+    width: 600px;
 }
 
 .carouselSlide>img {
@@ -36,6 +34,7 @@
 .carouselSlideText {
     display: grid;
     width: 300px;
+    margin: 0.2rem;
 }
 
 .carouselCurrent {
@@ -45,12 +44,6 @@
     background-color: #716654;
     padding: 0.2rem;
     color: #E0DACF;
-}
-
-.carouselSlide>span {
-    font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
 }
 
 .carouselSlide>h2 {
