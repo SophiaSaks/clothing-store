@@ -20,27 +20,14 @@
     margin-top: 2rem;
     height: 60vh;
     overflow-y: scroll;
-    width: 150vh;
+    width: 160vh;
 }
 
-.product1 {
+.product {
     background-color: rgb(2, 2, 107);
-    padding: 1rem;
+    padding: 0.8rem 1.8rem;
     height: fit-content;
-}
-.product2 {
-    background-color: rgb(31, 49, 55);
-    padding: 1rem;
-}
-
-.product3 {
-    background-color: rgb(48, 71, 56);
-    padding: 1rem;
-}
-
-.product4 {
-    background-color: rgb(115, 36, 78);
-    padding: 1rem;
+    text-align: center;
 }
 
 
