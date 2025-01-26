@@ -11,7 +11,10 @@ const products = [
     { src: statueWoman, title: "Tshirt", price: "100 SEK", caption: "Female clothing", key: "0", className:"product"},
     { src: statueWoman, title: "Dress", price: "200 SEK", caption: "Female clothing", key: "1" , className:"product"},
     { src: statueWoman, title: "Tshirt", price: "400 SEK", caption: "Female clothing", key: "2", className:"product" },
-    { src: statueWoman, title: "dress", price: "100 SEK", caption: "Female clothing", key: "3", className:"product"}
+    { src: statueWoman, title: "dress", price: "100 SEK", caption: "Female clothing", key: "3", className:"product"},
+    { src: statueWoman, title: "Tshirt", price: "100 SEK", caption: "Female clothing", key: "0", className:"product"},
+    { src: statueWoman, title: "Dress", price: "200 SEK", caption: "Female clothing", key: "1" , className:"product"},
+    { src: statueWoman, title: "Tshirt", price: "400 SEK", caption: "Female clothing", key: "2", className:"product" },
 
 ]
 

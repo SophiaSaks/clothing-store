@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\clothing-store-backend.props" />
+</Project>
