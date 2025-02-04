@@ -1,43 +1,50 @@
 .carouselWrapper {
     display: grid;
-    grid-template-columns: repeat(4, 5% 85% 5%);
-    gap: 0.5rem;
+    grid-template-columns: repeat(4, 2% 85% 5%);
 }
 
 .carouselContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: center;
     max-width: 1200px;
     max-height: 800px;
-    margin: auto;
     overflow: hidden;
-    border: 30px solid transparent;
-    border-image: url('.././assets/_/_/frame.png') 60 round;
-    border-image-outset: 30px;
+    border: 40px solid transparent;
+    border-image: url('.././assets/_/_/frame.png') 80 round;
+    border-image-outset: 10px;
 }
 
+.carouselTextTitle {
+    font-size: 3rem;
+    color: #6F616F;
+}
+
+.carouselTextSpan {
+ font-size: 1.5rem;
+}
 
 .carouselSlide {
     display: flex;
-    transform: 4s;
-    transition-timing-function: ease-out;
+    flex-direction: row;
+    transform: 6s;
+    transition-timing-function: ease-in;
     align-items: column;
     gap: 120px;
-    border: 1px solid red; 
-    margin: 1rem;
-    width: 800px;
+    width: 100vh;
+    height: 600px;
+    font-family: "Jost", serif;
 }
 
 .carouselSlide>img {
-    height: 400px;
-    align-items:end;
+    height:140%;
+    width: 100%;
+    align-items:flex-end;
 }
 
 .carouselSlideText {
-    display: grid;
-    width: 300px;
-    margin: 0.2rem;
+    text-align: left;
+    color: #A135FF;
 }
 
 .carouselCurrent {
@@ -45,29 +52,20 @@
     width: fit-content;
     font-size: 1rem;
     background-color: #716654;
-    padding: 0.2rem;
     color: #E0DACF;
-}
-
-.carouselSlide>h2 {
-    font-size: 3rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
 }
 
 .carouselBtn {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-self: center;
-    align-self: center;
+    flex-direction: row; 
     justify-content: center;
+    align-self: flex-end;
+    align-items: center;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     border: none;
     cursor: pointer;
-    padding: 10px;
     z-index: 10;
     height: fit-content;
     width: 4rem;
