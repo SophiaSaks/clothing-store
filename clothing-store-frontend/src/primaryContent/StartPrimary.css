@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     align-self: center;
-    max-width: 600px;
+    max-width: 1200px;
     max-height: 800px;
     margin: auto;
     overflow: hidden;
@@ -23,13 +23,15 @@
     transform: 4s;
     transition-timing-function: ease-out;
     align-items: column;
-    margin: 0.5rem;
-    width: 600px;
+    gap: 120px;
+    border: 1px solid red; 
+    margin: 1rem;
+    width: 800px;
 }
 
 .carouselSlide>img {
-    height: 200px;
-    align-items: flex-end;
+    height: 400px;
+    align-items:end;
 }
 
 .carouselSlideText {
