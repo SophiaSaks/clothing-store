@@ -1,11 +1,11 @@
 .carouselWrapper {
     display: grid;
-    grid-template-columns: repeat(4, 2% 85% 5%);
+    grid-template-columns: repeat(1%, 4%, 2%, 85%, 5%, 10%);
 }
 
 .carouselContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: center;
     max-width: 1200px;
     max-height: 800px;
@@ -32,7 +32,7 @@
     align-items: column;
     gap: 120px;
     width: 100vh;
-    height: 600px;
+    max-height: 60vh;
     font-family: "Jost", serif;
 }
 
@@ -50,6 +50,7 @@
 .carouselCurrent {
     height: fit-content;
     width: fit-content;
+    align-items: flex-end;
     font-size: 1rem;
     background-color: #716654;
     color: #E0DACF;
@@ -68,7 +69,7 @@
     cursor: pointer;
     z-index: 10;
     height: fit-content;
-    width: 4rem;
-    height: 3rem;
+    width: 3rem;
+    height: 5rem;
     border-radius: 50px;
 }
