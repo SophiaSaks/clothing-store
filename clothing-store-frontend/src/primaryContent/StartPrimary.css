@@ -1,11 +1,11 @@
 .carouselWrapper {
     display: grid;
-    grid-template-columns: repeat(1%, 4%, 2%, 85%, 5%, 10%);
+    grid-template-columns: repeat(10% ,20%,0%, 45%, 5%, 10%);
 }
 
 .carouselContainer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-self: center;
     max-width: 1200px;
     max-height: 800px;
@@ -18,7 +18,7 @@
 .carouselTextTitle {
     font-size: 3rem;
     color: #6F616F;
-}
+} 
 
 .carouselTextSpan {
  font-size: 1.5rem;
@@ -27,6 +27,8 @@
 .carouselSlide {
     display: flex;
     flex-direction: row;
+    grid-template-columns: (10rem, 20rem 20rem);
+    grid-template-rows: (10rem, 20rem, 20rem);
     transform: 6s;
     transition-timing-function: ease-in;
     align-items: column;
@@ -37,14 +39,16 @@
 }
 
 .carouselSlide>img {
-    height:140%;
     width: 100%;
+    height: 100vh;
     align-items:flex-end;
 }
 
 .carouselSlideText {
     text-align: left;
-    color: #A135FF;
+    font-weight: bold;
+    letter-spacing: 0.4px;    
+    color: #000;
 }
 
 .carouselCurrent {
