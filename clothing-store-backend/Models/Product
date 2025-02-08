@@ -1,8 +1,0 @@
-class Product {
-    id = number,
-    name = "no name",
-    title = "title",
-    body = "body",
-    price= 10,
-    image = "url",
-}
