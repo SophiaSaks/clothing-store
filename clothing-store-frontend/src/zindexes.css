@@ -6,6 +6,10 @@
 .content {
     z-index: -2;
 }
+
+.carouselBtn {
+    z-index: 10;
+}
 .pillarBackground1, .pillarBackground2, .pillarBackground3 {
     z-index: -3;
 }

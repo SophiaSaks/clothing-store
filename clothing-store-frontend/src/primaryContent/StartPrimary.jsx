@@ -34,27 +34,27 @@ function StartPrimary() {
 
     return (
         <div className="carouselWrapper">
-         
+
             <div className="carouselContainer">
 
                 <div className="carouselSlide">
                     <div className="carouselSlideText">
                         <h2 className="carouselTextTitle">{images[currentIndex].title}</h2>
                         <span class="carouselTextSpan">{images[currentIndex].content}</span>
-                        <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
-                        <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
                     </div>
+                    <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
+                    <img className="carouselImg" src={images[currentIndex].src} alt={images[currentIndex].alt} />
                 </div>
             </div>
-            <div>
-            <button className="carouselBtn prev" onClick={goToPrevious}>
-                --
-            </button>
-            <button className="carouselBtn next" onClick={goToNext}>
-                --
-            </button>
+            <div className="carouselBtnDiv">
+                <button className="carouselBtn prev" onClick={goToPrevious}>
+                    -
+                </button>
+                <button className="carouselBtn next" onClick={goToNext}>
+                    -
+                </button>
             </div>
-            
+
         </div>
     )
 }
