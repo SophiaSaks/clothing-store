@@ -33,28 +33,24 @@ function StartPrimary() {
     }, [currentIndex, autoSlideInterval]);
 
     return (
-        <div className="carouselWrapper">
+        <div className="carouselSlide">
 
-            <div className="carouselContainer">
+            <button className="carouselBtn prev" onClick={goToPrevious}>
+                &lt;
+            </button>
 
-                <div className="carouselSlide">
-                    <div className="carouselSlideText">
-                        <h2 className="carouselTextTitle">{images[currentIndex].title}</h2>
-                        <span class="carouselTextSpan">{images[currentIndex].content}</span>
-                    </div>
-                    <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
-                    <img className="carouselImg" src={images[currentIndex].src} alt={images[currentIndex].alt} />
-                </div>
-            </div>
-            <div className="carouselBtnDiv">
-                <button className="carouselBtn prev" onClick={goToPrevious}>
-                    -
-                </button>
-                <button className="carouselBtn next" onClick={goToNext}>
-                    -
-                </button>
+            <div className="carouselSlideText">
+                <h2 className="carouselTextTitle">{images[currentIndex].title}</h2>
+                <span class="carouselTextSpan">{images[currentIndex].content}</span>
             </div>
 
+            <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
+
+            <img className="carouselImg" src={images[currentIndex].src} alt={images[currentIndex].alt} />
+
+            <button className="carouselBtn next" onClick={goToNext}>
+                &gt;
+            </button>
         </div>
     )
 }
