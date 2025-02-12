@@ -13,19 +13,22 @@
 .pillarBackground1{
     position: absolute;
     right: 15%;
-    top: 6%;
+    top: 5%;
+    height: 90%;
 }
 
 .pillarBackground2{
     position: absolute;
     right: 45%;
-    top: 6%;
+    top: 5%;
+    height: 90%;
 }
 
 .pillarBackground3{
     position: absolute;
     right: 75%;
-    top: 6%;
+    top: 5%;
+    height: 90%
 }
 
 
