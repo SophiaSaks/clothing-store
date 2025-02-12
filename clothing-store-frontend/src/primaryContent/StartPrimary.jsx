@@ -39,15 +39,17 @@ function StartPrimary() {
                 &lt;
             </button>
 
-            <div className="carouselSlideText">
+            <div className="innerDiv">
+
                 <h2 className="carouselTextTitle">{images[currentIndex].title}</h2>
                 <span class="carouselTextSpan">{images[currentIndex].content}</span>
+                <div className="carouselImg">
+                    <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
+                </div>
+
+                <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
+
             </div>
-
-            <span className="carouselCurrent"> {currentIndex + 1} /  {images.length.toString()}</span>
-
-            <img className="carouselImg" src={images[currentIndex].src} alt={images[currentIndex].alt} />
-
             <button className="carouselBtn next" onClick={goToNext}>
                 &gt;
             </button>

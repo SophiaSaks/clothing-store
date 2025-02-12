@@ -1,15 +1,31 @@
-.carouselWrapper {
 
-    display: grid; 
-    grid-template-columns: 10% 10% 60% 10% 10%;
-    grid-template-rows: 80% 20%;
-    max-width: 1200px;
-    max-height: 200px;
-    overflow: hidden;
+.carouselSlide {
+    font-family: "Jost", serif;
+    width: 100vh;
+    display: flex; 
+    flex-direction: row;
+    gap: 0.2rem;
+}
+
+.innerDiv {
+    display: flex;
+
+    flex-direction: column;
     border: 40px solid transparent;
     border-image: url('.././assets/_/_/frame.png') 80 round;
-    border-image-outset: 10px;
-    
+
+}
+.carouselBtn {
+    align-self: center;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    width: 3rem;
+    height: 5rem;
+    border-radius: 26px;
+    opacity: 0.8;
 }
 
 .carouselTextTitle {
@@ -22,49 +38,28 @@
 
 .carouselTextSpan {
 
- font-size: 1.1rem;
+ font-size: 1.4rem;
  text-align: left;
 
 }
 
-.carouselSlide {
-
-    border: 1px solid brown;
-    font-family: "Jost", serif;
-
-}
 
 .carouselImg {
-
+    grid-column: end;
+    grid-row: end;
     max-width: 80vh;
+    max-height: 60vh;
 
-}
-
-.carouselSlideText {
-    
-    height: 120%;
-    justify-content: center;
-    border: 1px solid red; 
-    width: 50%;    
-    letter-spacing: 0.2px;    
-    color: #000;
 }
 
 .carouselCurrent {
-    font-size: 1rem;
+    align-self: center;
+    justify-self: center;
+    margin: 1rem;
+    height:40px; 
+    width: 90px;
+    padding: 0.2rem;
+    font-size: 1.6rem;
     background-color: #716654;
     color: #E0DACF;
-}
-
-.carouselBtn {
-    
-    background: #000;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 30px;
-    width: 3rem;
-    height: 5rem;
-    border-radius: 26px;
-    opacity: 0.8;
 }
