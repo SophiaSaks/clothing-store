@@ -1,56 +1,52 @@
 .pillarLeft {
     position: absolute;
-    left: 0;
+    left: -1%;
     top: 6.5%;
+    height: 88%;
 }
 
-.pillarRight{
+.pillarRight {
     position: absolute;
-    right: 0;
+    right: -1%;
     top: 6.5%;
+    height: 88%;
 }
 
-.pillarBackground1{
+.pillarBackground1 {
     position: absolute;
     right: 15%;
     top: 5%;
     height: 90%;
 }
 
-.pillarBackground2{
+.pillarBackground2 {
     position: absolute;
     right: 45%;
     top: 5%;
     height: 90%;
 }
 
-.pillarBackground3{
+.pillarBackground3 {
     position: absolute;
     right: 75%;
     top: 5%;
     height: 90%
 }
 
-
-img {
-    height: 88%;
-}
-
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-color: #E0DACF;
-    opacity: 0.85;
-    height: 86vh;
-    margin: 2rem auto;
-    width: 90%;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 4rem;
+    background-color: #e0dacfe1;
+    width: 82%;
 }
 
 .primaryContent {
-    width: 85%;
-    height: 60vh;
+    width: 80%;
+    height: 60%;
     display: grid;
     align-items: center;
     justify-content: center;
