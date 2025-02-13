@@ -39,18 +39,10 @@
     align-items: center;
     justify-content: center;
     justify-self: center;
-    margin-top: 4rem;
     background-color: #e0dacfe1;
-    width: 82%;
+    width: 85%;
 }
 
-.primaryContent {
-    width: 80%;
-    height: 60%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
 
 .secondaryContent {
     width: 70%;

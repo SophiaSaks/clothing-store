@@ -9,6 +9,7 @@ import StartPrimary from '../primaryContent/StartPrimary'
 import AboutSecondary from '../secondaryContent/AboutSecondary'
 import EmptyPage from './EmptyPage'
 import Women from '../primaryContent/Women'
+import Cart from '../primaryContent/Cart'
 
 
 function Frame() {
@@ -36,6 +37,8 @@ function Frame() {
             <Route path="/men" exact Component={EmptyPage}>
             </Route>
             <Route path="/unisex" exact Component={EmptyPage}>
+            </Route>
+            <Route path="/cart" exact Component={Cart}>
             </Route>
           </Routes>
         </div>

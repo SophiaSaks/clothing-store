@@ -41,11 +41,13 @@ function Navbar() {
                     <img src={searchIcon}></img>
                 </button>
             </form>
+            <a href="/cart">
             <div className="cart">
                 <img src={shoppingBasket}></img>
                 <span>Cart</span>
                 <span className="cartNumber">120</span>
             </div>
+            </a>
 
         </div>
     )
