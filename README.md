@@ -5,6 +5,7 @@ Playing around with different ways to create a more graphical and "brand"-y site
 Example from my prototype I used to sketch out my ideas: 
 
 ![Prototype](https://github.com/user-attachments/assets/5803b4cb-a97d-4a87-a19e-fe2c975afeb3)
+![Prototype2](clothing-store-frontend/src/assets/_/Screen1.png)
 
 <h2>Challenges:</h2>
 <ul>
