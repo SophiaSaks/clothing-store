@@ -37,18 +37,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     justify-self: center;
     background-color: #e0dacfe1;
-    width: 85%;
+    width: 86%;
+    height: 80vh;
 }
 
-
-.secondaryContent {
-    width: 70%;
-    height: 10vh;
-    margin: 0.5rem;
-    display: grid;
-    align-items: center;
-    justify-content: center;
+.primaryContent {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    justify-content: flex-start;
+    align-self: center;
+    margin-top: 4.2rem;
+    height: 100vh;
 }

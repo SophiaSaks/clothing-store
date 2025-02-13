@@ -1,0 +1,8 @@
+.EmptyPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    height: 60vh;
+    font-size: 2rem;
+}
