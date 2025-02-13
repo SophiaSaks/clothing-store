@@ -39,13 +39,3 @@
     width: 86%;
     height: 100%;
 }
-
-.primaryContent {
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-end;
-    justify-content: flex-start;
-    align-self: center;
-    margin-top: 4.2rem;
-    height: 100vh;
-}

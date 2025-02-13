@@ -24,8 +24,6 @@ function Frame() {
         <img src={Pillar} alt="background pillar" className="pillarBackground3"></img>
       </div>
       <div className="content">
-
-        <div className="primaryContent">
           <Routes>
             <Route path="/about" exact Component={About}>
             </Route>
@@ -40,7 +38,6 @@ function Frame() {
             <Route path="/cart" exact Component={Cart}>
             </Route>
           </Routes>
-        </div>
       </div>
       <Footer />
     </div>

@@ -7,7 +7,7 @@ import CoverImage from '../assets/_/coverImage.png'
 
 const images = [
     { src: Carousel, title: "Where modern meets classic", content: "Timeless clothes with a youthful touch. ", alt: "Test" },
-    { src: AboutPicture, title: "Embrace the Beauty of the Twentytwenties", content: "A striking balance between minimalism and baroque sophistication for the modern world.", alt: "Test" },
+    { src: Carousel, title: "Embrace the Beauty of the Twentytwenties", content: "A striking balance between minimalism and baroque sophistication for the modern world.", alt: "Test" },
     { src: CoverImage, title: "Classical Beauty, Modern Design", content: "Timeless clothes with a youthful touch. ", alt: "Test" }
 ]
 
@@ -44,7 +44,7 @@ function StartPrimary() {
 
                     <h2 className="carouselTextTitle">{images[currentIndex].title}</h2>
                     <span className="carouselTextSpan">{images[currentIndex].content}</span>
-                    </div>
+                </div>
                 <div className="carouselImg">
                     <img src={images[currentIndex].src} alt={images[currentIndex].alt} />
                 </div>
