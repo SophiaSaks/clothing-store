@@ -19,8 +19,9 @@
     align-items: flex-start;
     width: 100vh;
     height: 60vh;
-    border: 40px solid transparent;
+    border: 60px solid transparent;
     border-image: url('.././assets/_/_/frame.png') 80 round;
+    background: rgba(255, 255, 255, 0.912);
     overflow: hidden;
 
 }

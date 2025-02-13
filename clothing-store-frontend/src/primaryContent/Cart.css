@@ -1,6 +1,8 @@
 .cartContainer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    font-family: "Lexend", serif;
+    width: 20rem;
+    padding: 1.5rem;
+    border: 4px solid purple;
+    height: fit-content;
+    margin: 2rem;
 }

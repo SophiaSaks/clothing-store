@@ -1,36 +1,34 @@
-.pillarLeft {
+.pillarLeft, .pillarRight, .pillarBackground1, .pillarBackground2, .pillarBackground3 {
     position: absolute;
-    left: -1%;
+}
+.pillarLeft, .pillarRight {
     top: 6.5%;
     height: 88%;
+}
+
+.pillarBackground1, .pillarBackground2, .pillarBackground3 {
+    top: 5%;
+    height: 90%;
+}
+
+.pillarLeft {
+    left: -1%;
 }
 
 .pillarRight {
-    position: absolute;
     right: -1%;
-    top: 6.5%;
-    height: 88%;
 }
 
 .pillarBackground1 {
-    position: absolute;
     right: 15%;
-    top: 5%;
-    height: 90%;
 }
 
 .pillarBackground2 {
-    position: absolute;
     right: 45%;
-    top: 5%;
-    height: 90%;
 }
 
 .pillarBackground3 {
-    position: absolute;
     right: 75%;
-    top: 5%;
-    height: 90%
 }
 
 .content {
@@ -38,9 +36,8 @@
     flex-direction: column;
     align-items: center;
     justify-self: center;
-    background-color: #e0dacfe1;
     width: 86%;
-    height: 80vh;
+    height: 100%;
 }
 
 .primaryContent {
