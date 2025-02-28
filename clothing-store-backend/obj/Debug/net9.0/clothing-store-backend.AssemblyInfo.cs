@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("clothing-store-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3b0344201fb2f11b4c2faa1f04f9226647b5e15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+278f8aa82bd1abafd22d9ecaeb6928f927e33a0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("clothing-store-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("clothing-store-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
